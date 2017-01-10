@@ -1,6 +1,6 @@
-/*#include<cstdio>
-#include<iostream>
-#include<vector>
+#include <cstdio>
+#include <iostream>
+#include <vector>
 using namespace std;
 int Task,N;
 int a[100005];
@@ -37,4 +37,4 @@ int main()
 
 	}
 	return 0;
-}*/
+}

@@ -1,6 +1,6 @@
-#include<cstdio>
-#include<iostream>
-#include<vector>
+#include <cstdio>
+#include <iostream>
+#include <vector>
 using namespace std;
 int T;
 int find(int i, int k)

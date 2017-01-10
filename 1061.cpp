@@ -1,6 +1,6 @@
-#include<cstdio>
-#include<iostream>
-#include<string>
+#include <cstdio>
+#include <iostream>
+#include <string>
 using namespace std;
 int T, len;
 const int MAXN = (1 << 20) * 10 + 10;

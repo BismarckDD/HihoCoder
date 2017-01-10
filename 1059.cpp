@@ -1,6 +1,6 @@
-#include<cstdio>
-#include<iostream>
-#include<cstring>
+#include <cstdio>
+#include <iostream>
+#include <cstring>
 using namespace std;
 
 const int MAXN = 2101;
@@ -31,10 +31,10 @@ int main()
 			dp[i+1][j+1] = mymax(dp[i+1][j],dp[i][j+1]);
 			if(f[i+1][j+1]>=3)
 			{
-				for(int k=3;k<=f[i][j];++k)
-					dp[i+1][j+1] = max(dp[i+1][j+1],dp[i+1-k][j+1-k]+k);
+				for(int k=3;k<=f[i+1][j+1];++k)
+					dp[i+1][j+1] = mymax(dp[i+1][j+1],dp[i+1-k][j+1-k]+k);
 			}
 		}
-	
+    printf("%d\n",dp[len1][len2]);	
 	return 0;
 }
